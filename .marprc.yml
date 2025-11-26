@@ -1,0 +1,75 @@
+allowLocalFiles: true
+#author: "author"  
+#description: "プレゼンテーションの説明"  
+#keywords: [
+#  "marp", 
+#  "presentation", 
+#  "slide"
+#]
+#lang: "ja"  
+#title: "プレゼンテーションタイトル"  
+#url: "https://example.com/"  
+  
+# 入出力設定  
+inputDir: "./markdown"  
+output: "./dist"  
+parallel: 5
+  
+# テーマ設定  
+#theme: "catppuccin_latte"  
+themeSet:   
+  - "./theme/catppuccin_latte.css"
+  - "./theme/catppuccin_frappe.css"
+  - "./theme/catppuccin_macchiato.css"
+  - "./theme/catppuccin_mocha.css"
+  
+# エンジン設定  
+#engine: "@marp-team/marp-core" # not working
+options:  
+  looseYAML: false  
+  markdown:  
+    breaks: false  
+    linkify: true  
+  minifyCSS: true  
+#  
+## HTML設定  
+html: true
+#  
+## PDF設定  
+#pdf: true  
+#pdfNotes: true  
+#pdfOutlines:  
+#  pages: true  
+#  headings: true  
+#  
+## 画像設定  
+#image: "png"  
+#images: "png"  
+#imageScale: 2  
+#jpegQuality: 85  
+#  
+## PPTX設定  
+#pptx: true
+#pptxEditable: false  
+#  
+## テンプレート設定  
+#template: "bespoke"  
+#bespoke:  
+#  osc: true  
+#  progress: false  
+#  transition: true  
+#  
+## ブラウザ設定  
+#browser: "auto"  
+#browserProtocol: "cdp"  
+#browserTimeout: 30  
+#  
+# 動作モード  
+preview: true
+server: false
+watch: true
+#  
+## その他  
+#notes: false  
+#ogImage: "https://example.com/og-image.jpg"
+
