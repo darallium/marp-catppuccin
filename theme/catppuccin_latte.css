@@ -145,3 +145,8 @@ th[align="center"], td[align="center"] {
 th[align="right"], td[align="right"] {
     text-align: right;
 }
+
+section::after {
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+}
+
