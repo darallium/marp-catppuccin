@@ -1,4 +1,5 @@
 # marp-catppuccin
+<img width="2540" height="1555" alt="image" src="https://github.com/user-attachments/assets/97104f87-9f8c-49b7-a196-43891cf1720c" />
 
 ## ビルド
 
